@@ -1,0 +1,9 @@
+/* main */
+#main{ height:923px;}
+
+#main #center #left{ float:left; height:520px; width:250px; display:block;}
+
+#main #center #left #ltop{ height:123px;}
+#main #center #left #ldown{ height:307px; width:263px; background:url(../../webImg/contact.png) no-repeat; margin-top:160px;}
+
+#main #center #right{ float:left; height:520px; width:774px; display:block;} 

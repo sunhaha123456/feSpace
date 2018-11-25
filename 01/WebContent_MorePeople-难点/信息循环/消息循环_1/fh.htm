@@ -1,0 +1,41 @@
+<html>
+<head>
+<script language="javascript">
+function list()
+{
+	var qspeed=30
+	qdemo2.innerHTML=qdemo1.innerHTML //克隆demo1为demo2  
+	function qMarquee()
+	{  
+		//当滚动至demo1与demo2交界时  
+		if(qdemo2.offsetTop-qdemo.scrollTop<=0)qdemo.scrollTop-=qdemo1.offsetHeight //demo跳到最顶端  
+		else qdemo.scrollTop++  
+	}  
+	var qMyMar=setInterval(qMarquee,qspeed)//设置定时器  
+	//鼠标移上时清除定时器达到滚动停止的目的  
+	qdemo.onmouseover=function(){clearInterval(qMyMar)}  
+	//鼠标移开时重设定时器  
+	qdemo.onmouseout=function(){qMyMar=setInterval(qMarquee,qspeed)} 
+} 
+</script>
+</head>
+<body onload="list()">
+<div id="qdemo" style="overflow: hidden; width: 350px; height: 180px">
+  <div id="qdemo1">
+    <div id="fah_list">
+	<p> 
+	2013年9月4日 上海的崔小姐（135****4511）<br><br>
+ 	2013年9月4日 江苏的陈小姐（135****9935）<br><br>
+ 	2013年9月4日 河北的周小姐（131****4882）<br><br>
+ 	2013年9月4日 上海的崔小姐（135****4511）<br><br>
+ 	2013年9月4日 江苏的陈小姐（135****9935）<br><br>
+ 	2013年9月4日 河北的周小姐（131****4882）<br>
+ 	</p>
+	</div>	 
+  </div>
+  <div id="qdemo2">
+    
+  </div>
+</div>
+</body>
+</html>

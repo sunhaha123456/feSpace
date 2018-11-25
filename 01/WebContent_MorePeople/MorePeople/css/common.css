@@ -1,0 +1,47 @@
+/* 统一格式化处理 */
+*{ margin:0px; padding:0px;}
+body{ font-family:"宋体"; font-size:14px; background:url(../../webImg/indexBak.jpg) no-repeat;}
+
+#top,#point,#main,#hotlink,#foot{ width:1024px; margin:0px auto;}
+
+/* top */
+#top{ height:100px; position:relative; background:url(../../webImg/indexTop.png);}
+
+/* top_left 网站图标 */
+#top #top_left{ width:275px; height:100px; float:left;}
+#top #top_left img{ position:absolute; left:50px; top:30px;}	
+
+/* top_right 导航栏 */
+#top #top_right{ width:749px; height:100px; float:right; position:relative;}	
+
+#top #top_right ul{ list-style:none; width:730px; height:55px; position:absolute; left:0px; top:43px;}
+#top #top_right ul li{ float:left;}
+#top #top_right ul li a{ width:100px; height:25px; margin:10px 5px 0px 0px; display:block; font-size:20px; color:#FFFFFF; font-weight:bold; text-align:center; text-decoration:none; line-height:25px;}
+
+#top #top_right ul li a:hover{ width:100px; height:25px; margin:10px 5px 0px 0px; display:block; font-size:20px; color:#FFFFFF; font-weight:bold; text-align:center; text-decoration:none; background:url(../../webImg/indexShake.png); line-height:25px;}	
+
+#top #top_right ul img{ float:left; margin:8px 1px 0px 1px;}
+
+.clear{ clear:both;}
+
+/* hotling */
+#hotlink{ height:50px; border-bottom:3px #BFBFBF solid; border-top:3px #BFBFBF solid; margin-top:35px; position:relative;}
+
+#hotlink ul{ list-style:none;}
+#hotlink ul li{ float:left; padding-left:15px;}
+#hotlink ul li a{ text-decoration:none; color:#000000;}
+
+/* foot */
+#foot{ height:85px; background:#2964A6; margin-top:8px; position:relative;}
+#foot #footTxt p{ text-align:center; color:#FFFFFF;}
+#foot #footImg ul{ list-style:none; position:absolute; left:438px;}
+#foot #footImg ul li{ float:left;}
+
+/* main */
+#main #top{ height:370px;}
+
+#main #centerBak{ background:url(../../webImg/mbak.png) no-repeat; height:23px; padding-left:8px; margin-top:10px;}
+
+.lanMu{ font-weight:bold; color:#FFFFFF; text-decoration:none; background:url(../../webImg/indexLanMu.jpg) no-repeat; height:30px; width:250px; display:block; line-height:25px; padding-left:25px;}
+#main #down #news p a{ font-weight:normal; color:#000000; text-decoration:none;}
+.lanMu2{ font-weight:bold; color:#FFFFFF; text-decoration:none; background:url(../../webImg/indexLanMu2.jpg) no-repeat; height:30px; display:block; line-height:25px; padding-left:25px;}

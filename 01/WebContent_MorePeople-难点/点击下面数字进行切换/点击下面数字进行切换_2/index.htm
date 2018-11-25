@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>当当焦点幻灯</title>
+<LINK rev=stylesheet media=all href="css/css.css" type=text/css rel=stylesheet>
+<SCRIPT src="js/LanternN.js" type=text/javascript></SCRIPT>
+<BODY>
+<SCRIPT type=text/javascript>
+   document.lanterninfo=function(){
+   Lanterninfo=new Array();
+   Lanterninfo=[
+       ['images/01.jpg','礼品图书65折封顶，品牌百货送礼佳选！','http://www.codefans.net'],['images/02.jpg','万种图书岁末清仓 先到先得','http://www.codefans.net'],['images/03.jpg','百货年终出清1折到底','http://www.codefans.net'],['images/04.jpg','10万种图书低至50折封顶','http://www.codefans.net'],['images/05.jpg','运动休闲馆开业，20大国际品牌特惠','http://www.codefans.net']];
+       return Lanterninfo;
+   }   
+</SCRIPT>
+<div id=lantern>
+  <div id=lanternMain>
+    <div id=lanternImg>
+      <div style="Z-INDEX: 100; BORDER-BOTTOM: #ffffff 1px solid; POSITION: absolute; TOP: 221px; HEIGHT: 2px"><img id=lanternPoint style="POSITION: absolute" src="images/lanternpoint.gif" /></div>
+    </div>
+  </div>
+  <div id=lanternNavy></div>
+  <script type=text/javascript>
+   Lantern.info=parent.document.lanterninfo();
+   Lantern.init();
+</script>
+</div>
+</BODY>
+</HTML>

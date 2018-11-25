@@ -1,0 +1,20 @@
+/* main */
+#main{ height:1100px; position:relative;}
+
+#main #center #cleft{ float:left; height:267px; width:263px;}
+#main #center #cright{ float:left; height:267px; width:761px;}
+
+#main #center2{ margin-top:15px;}
+#main #center2 #c2left{ float:left; height:255px; width:263px; background:url(../../webImg/contact.png) no-repeat;}
+#main #center2 #c2right{ float:left; height:255px; width:761px;}
+
+#main #down{ height:160px;} 
+#main #down #products{ float:left; width:256px;}
+#main #down #job{ float:left; width:256px;} 
+#main #down #info{ float:left; width:256px;}
+#main #down #news{ float:left; width:256px;}
+
+/* 消息循环 */
+#scrollDiv{ width:220px; height:100px; min-height:25px; line-height:25px; border:#CCCCCC 1px solid; overflow:hidden}
+#scrollDiv li{ height:25px; padding-left:10px;}
+#scrollDiv li a{ text-decoration:none; color:#000000}

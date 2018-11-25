@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>当当焦点幻灯</title>
+<LINK rev=stylesheet media=all href="css/css.css" type=text/css rel=stylesheet>
+<SCRIPT src="js/LanternN.js" type=text/javascript></SCRIPT>
+<BODY>
+<SCRIPT type=text/javascript>
+   document.lanterninfo=function(){
+   Lanterninfo=new Array();
+   Lanterninfo=[
+		['images/01.png','惠众精装原木门','#'],['images/02.png','惠众精装原木门','#'],['images/03.png','惠众精装原木门','#'],['images/04.png','惠众精装原木门','#'],['images/05.png','惠众精装原木门','#']];
+       return Lanterninfo;
+   }   
+</SCRIPT>
+<div id=lantern>
+  <div id=lanternMain>
+    <div id=lanternImg><img id=lanternPoint style="POSITION: absolute"/></div>
+  </div>
+  <div id=lanternNavy></div>
+  <script type=text/javascript>
+   Lantern.info=parent.document.lanterninfo();
+   Lantern.init();
+  </script>
+</div>
+</BODY>
+</HTML>

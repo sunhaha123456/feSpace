@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>夕頭儉桟獄強旗鷹處幣</title>
+</head>
+<body>
+<div id="pdemo" style="OVERFLOW: hidden; WIDTH: 760px;">
+  <table cellspacing="0" cellpadding="0" align="center" border="0">
+    <tbody>
+      <tr>
+        <td id="marquePic1" valign="top">	
+		  <table width="760" height="180" border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td width="152" height="160" align="center"><img src="webImg/products/01.png" /></td>
+			<td width="152" align="center"><img src="webImg/products/02.png" /></td>
+			<td width="152" align="center"><img src="webImg/products/03.png" /></td>
+			<td width="152" align="center"><img src="webImg/products/03.png" /></td>
+			<td width="152" align="center"><img src="webImg/products/03.png" /></td>
+		  </tr>
+		  <tr>
+          <td height="20" align="center" bgcolor="#CCCCCC">込込込込込</td>
+		  <td height="20" align="center" bgcolor="#CCCCCC">最最最最最</td>
+		  <td height="20" align="center" bgcolor="#CCCCCC">細細細細細</td>  
+		  <td height="20" align="center" bgcolor="#CCCCCC">細細細細細</td>  
+		  <td height="20" align="center" bgcolor="#CCCCCC">細細細細細</td>  
+		  </tr>
+		  </table>
+		</td>
+        <td id="marquePic2" valign="top"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script language="javascript"> 
+var speed=30 
+marquePic2.innerHTML=marquePic1.innerHTML 
+function Marquee(){ 
+if(pdemo.scrollLeft>=marquePic1.scrollWidth){ 
+pdemo.scrollLeft=0 
+}else{ 
+pdemo.scrollLeft++ 
+}} 
+var MyMar=setInterval(Marquee,speed) 
+pdemo.onmouseover=function() {clearInterval(MyMar)} 
+pdemo.onmouseout=function() {MyMar=setInterval(Marquee,speed)} 
+</script>
+</BODY>
+</HTML>
