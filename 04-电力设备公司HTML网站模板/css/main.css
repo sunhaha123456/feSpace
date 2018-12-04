@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*background S*/
+.backgroundElem,.aElem a,.iElem i{background:url(../images/backgroundIco.png);background-position: 0 0;background-repeat: no-repeat; display: block;}
+/*background E*/
+/*header S*/
+#header{width: 100%; overflow: hidden; height: 88px;font-family: "Microsoft YaHei"; border-bottom: 1px solid #ddd;}
+#header .logo{ padding-top: 20px;}
+#header .logo a{ width: 207px; height: 49px; background-position: 0 0;}
+#header .nav{ width: 590px;}
+#header .nav ul li{ display: block; float: left;width: 116px; height: 88px;text-align: center; border-left: 1px solid #ddd;}
+#header .nav ul li.nedLi{border-right: 1px solid #ddd;}
+#header .nav ul li.on{ border-bottom: 5px solid #FEB103;}
+#header .nav ul li a{ display: block; color: #999; height: 83px;border-bottom: 5px solid #fff;}
+#header .nav ul li a:hover{ border-bottom: 5px solid #FEB103;}
+#header .nav ul li a.on{ border-bottom: 5px solid #FEB103;}
+#header .nav ul li a span{ padding-top: 25px; color: #333; font-size: 16px; display: block;}
+
+/*header E*/
+/*center S*/
+#center{ width: 100%;  font-family: "Microsoft YaHei"; overflow: hidden; }
+
+/*navItem S*/
+#center  .indTopSlice .navItem{ padding-top: 33px;}
+#center  .indTopSlice .navItem li{ width: 227px; height: 60px; display: block; position: relative;}
+#center  .indTopSlice .navItem li a{clear: both;  width: 227px;  height: 32px;position: absolute; left: 0; top: 14px; }
+#center  .indTopSlice .navItem li.item1 a{ background-position: -249px -43px;}
+#center  .indTopSlice .navItem li.item2 a{ background-position: -249px -107px;}
+#center  .indTopSlice .navItem li.item3 a{ background-position: -249px -168px;}
+#center  .indTopSlice .navItem li.item4 a{ background-position: -249px -230px;}
+#center  .indTopSlice .navItem li.item5 a{ background-position: -249px -293px;}
+#center  .indTopSlice .navItem li.item6 a{ background-position: -249px -355px;}
+#center  .indTopSlice .navItem li.hover{ background-color: #12428E;}
+#center  .indTopSlice .navItem li.item1.hover a{ background-position: -502px -43px;}
+#center  .indTopSlice .navItem li.item2.hover a{ background-position: -502px -107px;}
+#center  .indTopSlice .navItem li.item3.hover a{ background-position: -502px -168px;}
+#center  .indTopSlice .navItem li.item4.hover a{ background-position: -502px -230px;}
+#center  .indTopSlice .navItem li.item5.hover a{ background-position: -502px -293px;}
+#center  .indTopSlice .navItem li.item6.hover a{ background-position: -502px -355px;}
+
+#center  .indTopSlice .navItem li.item1.on a{ background-position: -502px -43px;}
+#center  .indTopSlice .navItem li.item2.on a{ background-position: -502px -107px;}
+#center  .indTopSlice .navItem li.item3.on a{ background-position: -502px -168px;}
+#center  .indTopSlice .navItem li.item4.on a{ background-position: -502px -230px;}
+#center  .indTopSlice .navItem li.item5.on a{ background-position: -502px -293px;}
+#center  .indTopSlice .navItem li.item6.on a{ background-position: -502px -355px;}
+/*navItem E*/
+
+/*index slide1 S*/
+.pic{width:279px;margin: 0 auto;}
+.pic .slideBox{ width: 279px; height: 200px;position: relative; overflow: hidden;z-index: 90; }
+.pic .slideBox .slideItem{position: absolute; z-index: 91;}
+.pic .slideBox .slideItem li{ float: left; display: block; width: 279px;}
+.pic .prveNext a{ display: block; float: left; width: 14px; height: 14px;}
+.pic .prveNext a.prveBtn{ background-position: 0px -425px; margin-right: 6px;}
+.pic .prveNext a.nextBtn{ background-position: -20px -425px;}
+
+.pic2{width:375px;}
+.pic2 .slideBox{ width: 375px; }
+.pic2 .slideBox .slideItem li{ width: 375px;}
+
+.pic3{width:970px;}
+.pic3 .slideBox{ width: 970px; height: 680px; }
+.pic3 .slideBox .slideItem li{ width: 970px;}
+
+.pic4{width:1024px; }
+.pic4 .slideBox{ width: 1024px; height: 680px;  }
+.pic4 .slideBox .slideItem li{ width: 1024px;}
+
+/*index  slide1 E*/
+/*index  slide2 S*/
+ .slide { width: 100%; height:200px; position: relative; z-index: 1; overflow: hidden; margin: 0 auto;}
+ .slideA { width: 100%; height:140px;  top: 20px; position: absolute; }
+ .slideA .ggBox li {  width: 100%; height:140px; position: absolute; z-index: 1; opacity: 0.1; }
+
+ .slideB { position: absolute; width: 100%; left: 0; bottom: 0; height: 30px; z-index: 4;  }
+ .slide .slideB .ggBtns {margin: 0 auto;  width: 80px; height: 16px;border-radius: 30px;}
+ .slide .slideB .ggBtns a {  width: 10px;height: 10px; float: left; background-position: -200px -77px; margin:0 5px; margin-top: 4px;}
+ .slide .slideB .ggBtns a:hover{text-decoration: none; opacity: 1;}
+ .slide .slideB .ggBtns a.ggOn{ text-decoration: none; background-position: -164px -77px; margin-top: 3px;}
+
+/*index slide2 E*/
+/*===*/
+.dk_wrap {
+    border: 1px solid #E9E9E9;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5px;
+}
+.dk_wrap::after {
+    background:url(../images/seleBtn.png) no-repeat;
+    width: 27px; height: 25px;
+    content: "";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.dk_wrap select {
+    border: 0 none;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    line-height: 15px;
+    min-height: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: relative;
+    width: 100%;
+}
+
+/*===*/
+/*center E*/
+/*footer S*/
+#footer{position:fixed;bottom: 0; border-top:1px solid #ccc; z-index: 100; width: 100%; background-color: #fff; height: 55px; line-height: 60px; color: #656565; font-family: "Microsoft YaHei"}
+#footer .footNav{ width: 220px;}
+#footer .footNav a{ color: #333; font-weight: bold;display: block; float: left; }
+#footer .footNav span{ display: block; padding: 0 10px; float: left;}
+#footer .footNav a i{ float: left; width: 31px; height: 31px; margin-top: 15px; margin-right: 5px; }
+#footer .footNav .fnIco1 i{background-position: -1px -76px; }
+#footer .footNav .fnIco2 i{background-position: -42px -76px;}
+#footer .footLink .gzWx{ position: relative;z-index: 100;}
+#footer .footLink .gzWx i{background-position: -88px -76px; width: 35px; height: 35px; float: left; margin-top: 12px;}
+#footer .footLink .gzWx a{color: #004295;}
+#footer .footLink .gzWx .wxCom{ display: none; position: absolute; z-index: 102; width: 150px; height: 173px; top: -160px; background-position: -0px -127px;}
+#footer .footLink .seleBox{ padding-top: 10px;}
+#footer .footLink .seleBox .dk_wrap select{ background-color: #E9E9E9;color: #004295;}
+/*footer E*/
+

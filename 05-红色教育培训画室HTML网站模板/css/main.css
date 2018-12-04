@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*background S*/
+.backgroundElem,.aElem a,.iElem i{background:url(../images/background.png);background-position: 0 0;background-repeat: no-repeat; display: block;}
+/*background E*/
+/*header S*/
+#header{ width: 100%;  z-index: 100; overflow: hidden; }
+#header .headTop{ height: 183px; background: url(../images/headBack.png) top no-repeat;}
+#header .headTop .logo{padding-top: 52px; padding-left: 5px; width: 235px;}
+#header .headTop .headNav{ width: 780px;  }
+#header .headTop .headNav .headNavTxt{ color: #fff; font-size: 14px; padding-top: 12px; padding-right: 40px;}
+#header .headTop .headNav .headNavTxt a{color: #fff; padding: 0 5px;}
+#header .headTop .headNav .headNavTxt a span{ padding-left: 5px;}
+#header .headTop .headNav .headNavUl{ padding-top: 50px; text-align: right;}
+#header .headTop .headNav .headNavUl .navLi{  color: #CCCCCC;   font-size: 14px;  padding-left: 5px;}
+#header .headTop .headNav .headNavUl .navLi .atem{  color: #444444; padding-right: 5px; }
+#header .headTop .headNav .headNavUl .navLi .atem:hover{ color: #954E4E; font-weight: bold;}
+#header .headTop .headNav .headNavUl .navLi.active .atem{ color: #954E4E; font-weight: bold;}
+
+#header .headTop .headNav .popUL{ position: absolute; width: 780px; top: 140px; left: 0; z-index: 1000;}
+#header .headTop .headNav .popUL .popCom{display: none; font-size: 14px; }
+#header .headTop .headNav .popUL .popCom  .popIco{ margin-left: 25px; background-position: -64px -323px; width: 10px; height: 7px; display: block;}
+#header .headTop .headNav .popUL .popCom .aTxt{ background-color: #BF9E7F; color: #fff; padding: 7px 10px; }
+#header .headTop .headNav .popUL .popCom .aTxt:hover{font-weight: bold;}
+#header .headTop .headNav .popUL .popCom .popAprv{ border-top-left-radius: 30px; border-bottom-left-radius: 30px; padding-left: 15px;}
+#header .headTop .headNav .popUL .popCom .popAnext{ border-top-right-radius: 30px; border-bottom-right-radius: 30px; padding-right: 15px;}
+#header .headTop .headNav .popUL .popCom .popMain{ width: 270px; min-width: 165px; border: 1px solid #ddd; border-top: 5px solid #ddd; background-color: #fff;}
+#header .headTop .headNav .popUL .popCom .popMain .popTit{ height:40px; line-height: 40px; color: #00A1E9; font-size: 18px; background: url(../images/popLine.png) bottom no-repeat;}
+#header .headTop .headNav .popUL .popCom .popMain .popTxt{ width: 228px; margin: 0 auto; height: 40px; line-height: 40px; border-bottom: 1px dotted #ccc;}
+#header .headTop .headNav .popUL .popCom .popMain .popTxt a{ color: #333; font-size: 14px;}
+#header .headTop .headNav .popUL .popCom .popMain .popTxt a i{ float: left;  width: 8px; height: 10px; background-position: -174px -325px; margin-top: 16px; margin-right: 10px;}
+/*header E*/
+
+/*center S*/
+#center{ width: 100%; overflow: hidden; }
+#center .centBox{ padding-top: 0px; padding-bottom: 15px;}
+/*center E*/
+/*footer S*/
+#footer{position: relative; z-index: 100; width: 100%; overflow: hidden;}
+#footer .footBox{ background-color: #9C7652;  height: 180px; border-top: 3px solid #674A2E;}
+#footer .footBox .footCom{ padding-top: 15px; color: #fff;}
+#footer .footBox .footNav{ margin: 0 auto;}
+#footer .footBox .footNav a{ font-size: 14px; color: #fff; padding: 0 5px;}
+#footer .footBox .seachLink{padding-top: 15px; width: 925px; margin: 0 auto;}
+#footer .footBox .seachLink .seachLinkBox{ width: 370px;}
+#footer .footBox .seachLink .seachLinkBox .seachTxt{ font-size: 14px; padding-top: 15px; padding-right: 20px;}
+#footer .footBox .seachLink .seachLinkBox .seachInput{ width: 207px; height: 35px; background-color: #fff; border-radius: 5px; position: relative;}
+#footer .footBox .seachLink .seachLinkBox .seachInput .seachInputText{ padding: 5px; width: 150px; height: 15px; border:0 none; border-radius: 5px; margin: 5px; }
+#footer .footBox .seachLink .seachLinkBox .seachInput .seachBtn{ background-position: -80px -315px; width: 30px; height: 30px; border-left: 1px solid #D2BCA7; margin-top: 3px;}
+#footer .footBox .seachLink .seachLinkBox .seachInput .seachInputSelect{ padding: 0px; width: 200px; height: 27px; color: #999;}
+#footer .footBox .seachLink .seachLinkBox .seachInput .seachIco{ position: absolute; z-index: 10; width: 30px; height: 30px; border-left: 1px solid #D2BCA7; background-color: #fff;   background-position: -133px -313px; right: 1px; top: 3px;}
+#footer .footBox .footCom .footTxt{ width: 690px; margin: 0 auto; padding-top: 10px; font-size: 14px; line-height: 25px;}
+#footer .footBox .footCom .footTxt span{ padding: 0 15px;}
+/*footer E*/

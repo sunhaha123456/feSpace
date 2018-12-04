@@ -1,0 +1,91 @@
+@charset "utf-8";
+#center .centBox .banner{ padding: 10px 0;}
+#center .centBox .banner img{ border:1px solid #ddd; padding: 1px;}
+
+#center .centBox .adultLeft{ width: 215px;}
+#center .centBox .adultTit{ height: 45px; line-height: 45px; background-color: #9C5254; color: #fff; font-size: 18px;}
+#center .centBox .adultLeftCom .adItem{ display: block; border-top:1px solid #fff;}
+#center .centBox .adultLeftCom .adItem a{ display: block;height: 44px; line-height: 44px; font-size: 14px; color: #666; background-color: #E1E1E1}
+#center .centBox .adultLeftCom .adItem a:hover{ color: #fff; background-color: #BF9E7F;}
+#center .centBox .adultLeftCom .adItem.active a{ color: #fff; background-color: #BF9E7F;}
+
+
+#center .centBox .adultCom{ width: 785px; border:1px solid #ddd; background-color: #fff;}
+#center .centBox .adultCom .adultNav{ height: 40px; margin:10px 20px; line-height: 40px; border-bottom: 1px solid #ddd; color: #888;font-size: 14px;}
+#center .centBox .adultCom .adultNav span{  font-size: 24px; color: #444;}
+#center .centBox .adultCom .adultNav span i{display: block; width: 5px; height: 17px; margin-top: 13px; margin-right: 10px; background-color: #BF9E7F; float: left;}
+#center .centBox .adultCom .adultTxt{ padding: 10px 20px; line-height: 25px; color: #666; font-size: 14px;}
+#center .centBox .adultCom .adultImgBox{ margin: 10px 0; border:1px solid #ddd;}
+#center .centBox .adultCom .adultImgBox .adultImg{ margin: 10px 0; padding-left: 10px;}
+#center .centBox .adultCom .adultImgBox .adultImg img{border:1px solid #ddd; padding: 1px;}
+
+#center .centBox .adultCom .adultImgBox2{ padding: 10px;}
+#center .centBox .adultCom .adultImgBox2 .adultImg2{ padding-left: 10px; padding-bottom: 10px; font-size: 14px; color: #666; line-height: 30px;}
+#center .centBox .adultCom .adultImgBox2 .adultImg2 img{border:1px solid #ddd; padding: 1px; display: block;}
+
+#center .centBox .adultCom .adultTxt .adultTxtList{ border-bottom: 1px solid #ddd; padding: 10px 0;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultImg3{ width: 176px;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultImg3 img{border:1px solid #ddd; padding: 1px; display: block;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultText1{ width: 550px; line-height: 25px; font-size: 14px; color: #666;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultTit1{ padding-bottom: 5px;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultTit1 a{color: #444; font-size: 18px;}
+
+#center .centBox .adultCom .adultTxt .adultTxtList .adultImg4{ width: 205px;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultText2{ width: 520px;font-size: 14px; color: #444; }
+#center .centBox .adultCom .adultTxt .adultTxtList .adultTit2 a{font-size: 14px; font-weight: bold;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultTip{ color: #888;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultText3{ width: 750px;}
+#center .centBox .adultCom .adultTxt .adultTxtList .adultText3 a:hover{ color: #9C5254;}
+
+#center .centBox .adultCom .adultTxt .adultPn{ padding-top: 10px; color: #9C5254; font-size: 18px;font-family: "Microsoft YaHei"}
+#center .centBox .adultCom .adultTxt .adultPn i{ display: block; float: left; width: 11px; height: 11px; background-color: #888; margin-top: 8px; margin-right: 10px; border-radius: 50%;}
+#center .centBox .adultCom .adultTxt .adultPtxt{ color: #666; font-size: 14px; padding-top: 5px;}
+
+#center .centBox .adultCom .adultTxt .adultWn{ width: 390px; line-height: 25px; font-size: 14px; color: #666;}
+#center .centBox .adultCom .adultTxt .adultWn .adultWtit{ color: #9C5254; font-size: 14px;}
+#center .centBox .adultCom .adultTxt .adultWn .adultWtit span{ display: block; color: #444; font-size: 30px; padding-bottom: 5px;}
+#center .centBox .adultCom .adultTxt .adultWimg{ width: 328px;}
+
+#center .centBox .adultCom .adultTxt .adulitKtit{ font-size: 18px; color: #444; padding: 10px 0;}
+#center .centBox .adultCom .adultTxt .adulitKtxt{ border-top: 1px solid #ddd; padding: 10px 0; color: #666; font-size: 14px;}
+#center .centBox .adultCom .adultTxt .adulitKtxt a{ display: block; float: left; color: #9C5254;}
+#center .centBox .adultCom .adultTxt .adulitKtxt span{ padding-left: 40px;}
+
+#center .centBox .adultCom .adultTxt .adultLbTxt{font-size: 14px; padding-bottom: 10px;}
+#center .centBox .adultCom .adultTxt .adultLbTxt span{ display: block; float: left; width: 245px; color: #444; text-align: right; margin-top: 5px;}
+#center .centBox .adultCom .adultTxt .adultLbTxt .adultLbInput{padding: 5px; width: 235px; height: 25px; border:1px solid #ddd;}
+#center .centBox .adultCom .adultTxt .adultLbTxt label{ color: #888;}
+#center .centBox .adultCom .adultTxt .adultLbTxt label i{ color: #9C5254; padding: 0 5px; font-style: normal;}
+#center .centBox .adultCom .adultTxt .adultLbBtn{padding-left: 245px;}
+#center .centBox .adultCom .adultTxt .adultLbBtn a{ display: block; width: 102px; height: 46px; border-radius: 5px; line-height: 46px; text-align: center;  font-size: 18px;}
+#center .centBox .adultCom .adultTxt .adultLbBtn .seleBtn{ background-color: #9C5254;color: #fff;}
+#center .centBox .adultCom .adultTxt .adultLbBtn .chageBtn{ background-color: #E1E1E1;color: #666;}
+#center .centBox .adultCom .adultTxt .adultSeleTit{ padding: 10px 0; font-size: 18px; color: #666; height: 30px; line-height: 30px; border-bottom: 1px solid #ddd;}
+#center .centBox .adultCom .adultTxt .adultSeleTxt{ font-size: 14px; color: #444; }
+#center .centBox .adultCom .adultTxt .adultSeleTxt .adultSeleCom{ width: 370px; padding: 10px 0;}
+#center .centBox .adultCom .adultTxt .adultSeleTxt .adultSeleCom span{ color: #888;}
+
+#center .centBox .adultCom .adultTxt .reslutsTab{ width: 100%;}
+#center .centBox .adultCom .adultTxt .reslutsTab tr td,tr th{ text-align: center; font-weight: normal; color: #444; font-size: 14px; height: 25px; line-height: 25px; padding: 5px; border:1px solid #ddd; width: 25%;}
+#center .centBox .adultCom .adultTxt .reslutsTab tr th{ background-color: #EAEAEA;}
+
+#center .centBox .adultCom .adultTxt .showTit{ color: #444; font-size: 24px;}
+#center .centBox .adultCom .adultTxt .showTip{color: #888; font-size: 14px; padding: 10px 0; border-bottom: 1px solid #ddd;}
+#center .centBox .adultCom .adultTxt .showTco{ padding-top: 10px; line-height: 25px; font-size: 14px;color: #444;}
+
+#center .centBox .adultCom .adultImg6{ padding-bottom: 10px; padding-left: 20px;font-size: 14px; color: #888;}
+#center .centBox .adultCom .adultImg6 img{ border:1px solid #ccc; padding: 1px;}
+#center .centBox .adultCom .adultImg6 span{ display: block;  color: #444;}
+/*page S*/
+#center .centBox .page{ font-size: 14px;}
+#center .centBox .page a{padding: 5px 10px; border:1px solid #ddd; color: #878787;}
+#center .centBox .page a.on{ background-color: #9C7652;  color: #fff;}
+#center .centBox .page a:hover{ background-color: #9C7652;  color: #fff;}
+#center .centBox .page span{ color: #888; padding-left: 20px;}
+#center .centBox .page span b{color: #333; padding: 0 5px;}
+#center .centBox .page .pageInput{padding: 5px; width: 30px; height: 20px; margin: 0 5px;}
+#center .centBox .page .prev{margin-right: 10px;}
+#center .centBox .page .next{ margin-left: 10px;}
+#center .centBox .page .sPageBtn{border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
+#center .centBox .page .ePageBtn{border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+/*page E*/

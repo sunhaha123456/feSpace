@@ -1,0 +1,22 @@
+@charset "utf-8";
+#center .indAdv{background:url(../images/slice/adv.jpg) repeat-x; background-size: 100%; -moz-background-size:100%;}
+#center .indCom{ padding-top: 347px; padding-bottom: 10px;}
+#center .indCon{background:url(../images/indLi.png) top no-repeat;height: 320px; background-color: #fff; box-shadow:-5px 5px 5px #cdcdcd,5px 5px 5px #cdcdcd;}
+#center .indCon .indBox .indNav{ height: 65px; border-bottom: 1px dotted #ddd; margin: 0 auto;  margin-right: 30px;}
+#center .indCon .indBox .indNav .indTit{color: #333; font-size: 16px; padding-top: 10px;}
+#center .indCon .indBox .indNav .indTit span{ color: #FDC623; font-size: 12px; display: block;}
+#center .indCon .indBox .indNav .indMore{ color: #333; padding-top: 20px;}
+#center .indCon .indBox1{ width: 230px; padding-left: 30px; }
+#center .indCon .indBox2{ width: 467px; padding-left: 30px; }
+#center .indCon .indBox3{ width: 205px; padding-left: 30px; }
+#center .indCon .indBox3 .entVideo{ padding-top: 30px;}
+#center .indCon .indBox1 .indCent{ width: 193px; margin-top: 10px; padding-right: 30px; border-right: 1px dotted #ddd;}
+#center .indCon .indBox1 .indCent .centTit{ display: block; width: 200px; text-align: center; padding-top: 20px;}
+#center .indCon .indBox1 .indCent .centTit img{border-radius: 5px;}
+#center .indCon .indBox1 .indCent .centTxt{ width: 200px; padding-top: 10px; color: #787878; text-indent: 2em;}
+
+#center .indCon .indBox2 .slide{ margin-top: 10px; border-right: 1px dotted #ddd; }
+#center .indCon .indBox2 .ulindLi{ width: 138px; }
+#center .indCon .indBox2 .ulindLi a{ display: block;}
+#center .indCon .indBox2 .ulindLi a span{display: block; background-color: #fff;  height: 48px; line-height: 48px; color: #333; text-align: center;}
+#center .indCon .indBox2 .ulindLi a img{ border-radius: 5px;}
